@@ -5,7 +5,7 @@
 # Link to a page that gives an overview of all your projects.
 # This can be an external link (e.g., to you GitHub profile) or to another
 # page within your website.
-projects_url: http://github.com/probberechts
+projects_url:
 
 # Set the page direction to RTL or LTR. default is LTR. (if you set it 'rtl', the 'vazir' font will be loaded.)
 direction: ltr
@@ -17,36 +17,22 @@ nav:
   home: /
   about: /about/
   articles: /archives/
-  projects: http://github.com/probberechts
-
 
 # Links to your social media accounts.
 # The 'icon' keys should correspond to Fontawesome icon names
 # (see https://fontawesome.com/icons?d=gallery&s=brands);
 # only 'mail' is an exception.
-# You can optionally add a 'label' key to set the title attribute on the link. 
+# You can optionally add a 'label' key to set the title attribute on the link.
 # 'icon' value will be used as title when 'label' is missing.
 social_links:
   -
-    icon: github
-    link: http://github.com/probberechts/cactus-dark
-  -
     icon: twitter
-    link: /
+    label: "@wellsonjain"
+    link: https://twitter.com/wellsonjain
   -
-    icon: facebook
-    link: /
-  -
-    icon: mail
-    link: mailto:name@email.com
-  -
-    icon: mastodon
-    label: mastodon.social
-    link: https://mastodon.social/@alice
-  -
-    icon: mastodon
-    label: fosstodon.org
-    link: https://fosstodon.org/@alice
+    icon: linkedin
+    label: "Wellson Wei"
+    link: https://www.linkedin.com/in/wellsonjain/
 
 # Customize the overview with displaying a tagcloud on the index page.
 # Options: https://hexo.io/docs/helpers.html#tagcloud
@@ -59,7 +45,7 @@ tags_overview: false
 #   - sort_updated: sort posts by last modification date instead of creation date.
 posts_overview:
   show_all_posts: false
-  post_count: 5
+  post_count: 10
   sort_updated: false
 
 # Customize the archive view.
@@ -107,7 +93,7 @@ logo:
   enabled: true
   width: 50
   height: 50
-  url: /images/logo.png
+  url: /images/logo.jpg
   gravatar: false
   grayout: true
 
@@ -183,22 +169,22 @@ utterances:
 # Fill in your Google Analytics tracking ID to enable Google Analytics.
 google_analytics:
   enabled: false
-  id: UA-86660611-1
+  id:
 
 # Fill in your Baidu Analytics tracking ID to enable Baidu Analytics.
 baidu_analytics:
   enabled: false
-  id: 2e6da3c375c8a87f5b664cea6d4cb29c
+  id:
 
 # Fill in your Cloudflare Analytics tracking ID to enable Cloudflare Analytics.
 cloudflare_analytics:
   enabled: false
-  id: 0dabb6e21848405483a237e6a7b6ed04
+  id:
 
 # Fill in your Umami Analytics tracking ID to enable Umami Analytics.
 umami_analytics:
   enabled: false
-  id: e77e68be-f6e4-4br3-9365-2b76b57cd571
+  id:
   host: https://analytics.domain.com
   script_name: umami.js
 
@@ -206,8 +192,8 @@ umami_analytics:
 # logo and/or favicons of you website.
 # To generate hash: `$ echo -n "name@email.com" | md5`.
 gravatar:
-  email: name@email.com
-  hash: d41d8cd98f00b204e9800998ecf8427e
+  email: wellsonjain@gmail.com
+  hash: da18abbd93834d26efd7351b09912db5
 
 # loads libraries and styles from CDN instead or relying on local files
 cdn:
